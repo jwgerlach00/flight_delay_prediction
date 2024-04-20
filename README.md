@@ -1,7 +1,8 @@
 # Flight Delay Prediction
+All code was written in Google Colab and later transferred here: https://github.com/jwgerlach00/flight_delay_prediction
 
 ## Conda Environment
-Provided as conda_environment.yml. Create using: conda env create -f environment.yml (source: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+Provided as conda_environment.yml. Create using: conda env create -f conda_environment.yml (source: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 NOTE: There may be differences in models produced with this environment as the models reported were trained in Google Colab. The reported time-series models can be found under models as bilstm_model.h5, lstm_model.h5, and hybrid_model.h5.
 
